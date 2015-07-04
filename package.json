@@ -1,0 +1,29 @@
+{
+  "name": "node-module-boilerplate",
+  "version": "0.0.0",
+  "description": "My well-made module",
+  "license": "MIT",
+  "repository": "icyflame/node-module-boilerplate",
+  "author": {
+    "name": "Siddharth Kannan",
+    "email": "kannan.siddharth12@gmail.com",
+    "url": "icyflame.github.io"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "semistandard && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "semistandard": "6.1.1"
+  }
+}
